@@ -31,7 +31,6 @@ et écrivez un programme qui renvoie une liste contenant uniquement les élémen
 #####
 Exercice 6
 Demandez à l'utilisateur une chaîne et imprimez si cette chaîne est un palindrome ou non.
-
 Un palindrome est une chaîne qui lit la même chose en avant et en arrière.
 
 #####
