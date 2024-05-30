@@ -19,19 +19,31 @@ class MyApp extends StatelessWidget {
               Expanded(
                 flex: 1,
                 child: Container(
-                  color: Colors.red,
+                  decoration: BoxDecoration(
+                    border: Border.all(
+                      width: 5,
+                      color: Colors.black,
+                    ),
+                    color: Colors.green,
+                  ),
                   alignment: Alignment.center,
                   child: Text(
                     "premier",
                     style: TextStyle(color: Colors.white),
                   ),
-                  margin: EdgeInsets.all(16.0),
+                  margin: EdgeInsets.all(40.0),
                 ),
               ),
               Expanded(
-                flex: 5,
+                flex: 3,
                 child: Container(
-                  color: Colors.red,
+                  decoration: BoxDecoration(
+                    border: Border.all(
+                      width: 5,
+                      color: Colors.black,
+                    ),
+                    color: Colors.yellow,
+                  ),
                   alignment: Alignment.center,
                   child: Text(
                     "Deuxieme",
@@ -43,13 +55,19 @@ class MyApp extends StatelessWidget {
               Expanded(
                 flex: 1,
                 child: Container(
-                  color: Colors.red,
+                  margin: EdgeInsets.all(15.0),
+                  decoration: BoxDecoration(
+                    border: Border.all(
+                      width: 5,
+                      color: Colors.black,
+                    ),
+                    color: Colors.blue,
+                  ),
                   alignment: Alignment.center,
                   child: Text(
                     "troisieme",
                     style: TextStyle(color: Colors.white),
                   ),
-                  margin: EdgeInsets.all(16.0),
                 ),
               ),
             ],
