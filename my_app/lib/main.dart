@@ -12,30 +12,40 @@ class MyApp extends StatelessWidget {
           appBar: AppBar(
             title: Text('hello'),
           ),
-          body: Column(
+          body: Center(child:
+            Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Container(
                 width: 100,
                 height: 100,
                 color: Colors.purple,
+                alignment: Alignment.center,
                 child: Text("Premier",
-                textAlign: TextAlign.center,
                 style: TextStyle(color: Colors.white)),
               ),
-              
               Container(
                 width: 100,
                 height: 100,
+                alignment: Alignment.center,
                 color: Colors.blue,
+                child: Text("Deuxieme",
+                style: TextStyle(color: Colors.white)
+                ),
+              
               ),
               Container(
                 width: 100,
                 height: 100,
                 color: Colors.green,
+                alignment: Alignment.center,
+                child: Text("Troisieme",
+                style: TextStyle(color: Colors.white))
               ),
             ],
-          )),
+      )
+      )
+      ),
     );
   }
 }
